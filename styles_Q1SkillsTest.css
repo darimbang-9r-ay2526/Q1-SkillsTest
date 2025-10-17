@@ -1,0 +1,35 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    background: url("https://t3.ftcdn.net/jpg/09/22/01/20/360_F_922012043_DQe3SsAg0RC5IyjhkSOVpO0IQdJT6kt3.jpg") no-repeat center right;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+}
+
+.container {
+    width: 35%;
+    background-color: rgba(240, 248, 255, 0.95); /* light bluish-white with transparency */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 40px;
+    margin: 20px;
+    overflow-y: auto;
+}
+
+form {
+    width: 100%;
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.logo img {
+    width: 80px;
+    border-radius: 50%;
+
+}
